@@ -8,9 +8,10 @@ accountCity = "Jaipur"
 accountEmail = "hc@hc.com"
 accountPassword = "22221111"
 accountCity = "delhi"
+let acccountState
 
 console.log(accountId);
 /*
 prefer not to use var beacause
 */
-console.table([accountEmail,accountId,accountPassword,accountCity])
+console.table([accountEmail,accountId,accountPassword,accountCity,acccountState])
