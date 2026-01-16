@@ -49,4 +49,23 @@ console.log(typeof myFunction);
 
 //stack (Primitive),Heap (Non-Premitive)
 
-let myyoutubename = 
+let myyoutubename = "chetan.com"
+
+let anothername = myyoutubename
+console.log(myyoutubename);
+console.log(anothername);
+
+let userone = {
+    email:"user@google.com",
+    upi:"user@ybl"
+}
+
+let usertwo = userone;
+
+usertwo.email = "chetan@google.com"
+
+console.log(userone.email);
+console.log(usertwo.email);
+
+//stack stores only premitive data types and gives an copy when needed
+//heap stores non premitive data types and gives reference to the original code when needed
